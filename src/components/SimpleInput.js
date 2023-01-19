@@ -26,7 +26,7 @@ const SimpleInput = (props) => {
   const formSubmissionHander = (event) => {
     event.preventDefault();
 
-    if (enteredEmailIsValid) {
+    if (forIsValid) {
       return;
     }
 
